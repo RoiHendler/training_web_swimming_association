@@ -24,6 +24,7 @@ export default function Contact() {
           <button type="submit">Send</button>
           {message && <span>Thanks, the message has been sent :)</span>}
         </form> */}
+        <spas> </spas>
         <h3>The tutorial and app were developed by Roi Hendler, Daniel Dayan and Nir Bagizada</h3>
           <h3>students at Bar Ilan University</h3>
           <h3>As part of are final project - In the Department of Computer Science</h3>

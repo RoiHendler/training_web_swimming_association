@@ -21,15 +21,19 @@
             left: 200px;
             transform: rotateY(180deg);
             @include mobile {
-                left: 150px;
-                bottom: 150px;
+                // left: 150px;
+                // bottom: 150px;
+                left: 30%;
+                bottom: 15%;
                 transform: rotateY(180deg);            }
         }
         &.right {
             right: 100px;
             @include mobile {
-                bottom: 150px;
-                right: 150px;
+                // bottom: 150px;
+                // right: 150px;
+                bottom: 15%;
+                right: 30%;
             }
         }
     }
@@ -60,7 +64,8 @@
                 justify-content: center;
                 @include mobile {
                     width: 90%;
-                    height: 300px;
+                    // height: 300px;
+                    height: 85%;
                     margin: 15px 0;
                 }
                 .left {
@@ -83,15 +88,8 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            // @include mobile {
-                            //     width: 20px;
-                            //     height: 20px;
-                            // }
                             img {
                                 width: 25px;
-                                // @include mobile {
-                                //     width: 15px;
-                                // }
                             }
                         }
                         h2 {
@@ -124,7 +122,7 @@
                     border-radius: 0%;
 
                     img {
-                        width: 150px;
+                        width: 200px;
                         //150
                         //200
                         //300

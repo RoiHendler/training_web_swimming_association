@@ -47,21 +47,27 @@
                 font-size: 60px;
                 margin: 10px 0;
                 @include mobile {
-                    font-size: 30px;
+                    // font-size: 30px;
+                    font-size: 185%;
+
                 }
             }
             h2 {
                 font-size: 35px;
                 margin: 10px 0;
                    @include mobile {
-                    font-size: 25px;
+                    // font-size: 25px;
+                    font-size: 250%;
+
                 }
             }
             h3 {
                 font-size: 30px;
                 margin: 15px 0;
                 @include mobile {
-                    font-size: 20px;
+                    // font-size: 20px;
+                    font-size: 105%;
+
                 }
                 span {
                     font-size: inherit;

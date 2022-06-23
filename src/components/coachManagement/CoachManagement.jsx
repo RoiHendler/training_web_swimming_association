@@ -12,8 +12,6 @@ export default function CoachManagement() {
       desc:
         "Now we will learn to add an exercise to the database in the app and in addition, we will learn how to define training in the app. ",
         img: "assets/homePageScreen.jpeg",
-        //homePageScreen.jpeg
-        //img: "assets/homePageScreen_900x1200.jpg",
     },
     {
       id: "2",
@@ -46,7 +44,7 @@ export default function CoachManagement() {
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 4)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
   return (

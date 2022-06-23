@@ -24,8 +24,10 @@
                 color: inherit;
                 margin-right: 40px;
                 @include mobile{
-                    font-size: 30px;
-                    margin-right: 40px;
+                    font-size: 170%;
+                    // font-size: 30px;
+                    // margin-right: 40px;
+                    margin-right: 0%;
                     font-weight: 700;                }
             }
             .itemContainer {

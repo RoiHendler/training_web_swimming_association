@@ -15,14 +15,11 @@
         position: absolute;
         cursor: pointer;
         @include mobile {
-            // display: none;
         }
         &.left {
             left: 200px;
             transform: rotateY(180deg);
             @include mobile {
-                // left: 150px;
-                // bottom: 150px;
                 left: 30%;
                 bottom: 15%;
                 transform: rotateY(180deg);            }
@@ -30,8 +27,6 @@
         &.right {
             right: 100px;
             @include mobile {
-                // bottom: 150px;
-                // right: 150px;
                 bottom: 15%;
                 right: 30%;
             }
@@ -43,11 +38,6 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
-        // @include mobile {
-        //     height: 100vh;
-        //     flex-direction: column;
-        //     justify-content: center;
-        // }
         .container {
             width: 100vw;
             display: flex;
@@ -123,9 +113,7 @@
 
                     img {
                         width: 200px;
-                        //150
-                        //200
-                        //300
+                        //150  200  300
                         transform: rotate(-10deg);
                     }
                 }

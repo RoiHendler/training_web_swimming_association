@@ -11,19 +11,19 @@ export const generalFeatures = [{
     {
         id: 3,
         title: "Statistics",
-        img: "assets/feature2.png",
+        img: "assets/Statistics.jpg",
     },
 ];
 
 export const SwimmerSide = [{
         id: 1,
         title: "Training Results",
-        img: "assets/feature2.png",
+        img: "assets/EnterTrainingResults.jpg",
     },
     {
         id: 2,
-        title: "Next Training",
-        img: "assets/feature2.png",
+        title: "Enter Training Results",
+        img: "assets/SwimmerTrainingProgram.jpg",
     },
     {
         id: 3,
